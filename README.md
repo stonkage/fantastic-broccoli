@@ -2,8 +2,8 @@
 
 This project integrates the [Catppuccin Frappe colour palette](https://github.com/glanceapp/glance/blob/v0.6.2/docs/themes.md) into:
 
-- [Homepage](https://gethomepage.dev/) installed and running.
-- [Uptime-Kuma](https://github.com/louislam/uptime-kuma) installed and running.
+- [Homepage](https://gethomepage.dev/)
+- [Uptime-Kuma](https://github.com/louislam/uptime-kuma)
 - [Material for Mkdocs](https://squidfunk.github.io/mkdocs-material/) 
 
 ---
