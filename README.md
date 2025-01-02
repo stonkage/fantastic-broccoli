@@ -30,9 +30,9 @@ This project integrates the [Catppuccin Frappe colour palette](https://github.co
 - Ensure you choose slate as the your homepage theme
 
 ### Material for MKdocs
-- Copy mkdocs.css to [stylesheets](https://squidfunk.github.io/mkdocs-material/customization/?h=css#additional-css} folder
+- Copy mkdocs.css to [stylesheets](https://squidfunk.github.io/mkdocs-material/customization/?h=css#additional-css) folder
 - Rename to extra.css
-- update mkdocs yaml folder to include [extra.css](https://squidfunk.github.io/mkdocs-material/customization/?h=css#additional-css} file
+- update mkdocs yaml folder to include [extra.css](https://squidfunk.github.io/mkdocs-material/customization/?h=css#additional-css) file
 - Restart your mkdocs instance
 
 ### Uptime-Kuma Status Page
