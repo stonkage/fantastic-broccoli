@@ -1,4 +1,4 @@
-## Glance Catppuccin CSS
+## Glance Catppuccin Frappe CSS
 
 This project integrates the Glance [Catppuccin Frappe colour palette](https://github.com/glanceapp/glance/blob/v0.6.2/docs/themes.md) into:
 
