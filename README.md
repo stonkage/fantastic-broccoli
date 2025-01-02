@@ -1,6 +1,6 @@
-# Glances Catppuccin Frappe Theme for Homepage, Material for Mkdcos and Uptime-Kuma
+## Glance Catppuccin Frappe Theme
 
-This project integrates the [Catppuccin Frappe colour palette](https://github.com/glanceapp/glance/blob/v0.6.2/docs/themes.md) into:
+This project integrates the Glance [Catppuccin Frappe colour palette](https://github.com/glanceapp/glance/blob/v0.6.2/docs/themes.md) into:
 
 - [Homepage](https://gethomepage.dev/)
 - [Uptime-Kuma](https://github.com/louislam/uptime-kuma)
