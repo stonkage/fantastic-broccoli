@@ -1,25 +1,12 @@
 # Glances Catppuccin Frappe Theme for Homepage, Material for Mkdcos and Uptime-Kuma
 
-This project integrates the [Catppuccin Frappe colour palette](https://github.com/glanceapp/glance/blob/v0.6.2/docs/themes.md) into [Homepage](https://gethomepage.dev/) to give you the same look and feel.
+This project integrates the [Catppuccin Frappe colour palette](https://github.com/glanceapp/glance/blob/v0.6.2/docs/themes.md) into:
+
+- [Homepage](https://gethomepage.dev/) installed and running.
+- [Uptime-Kuma](https://github.com/louislam/uptime-kuma) installed and running.
+- [Material for Mkdocs](https://squidfunk.github.io/mkdocs-material/) 
 
 ---
-
-## Features
-
-- **Catppuccin Frappe Palette Integration**: Applies a soothing and consistent colour theme to the homepage dashboard.
-- **Custom CSS Styling**: Enhances the user interface with modified styles for headers, tables, graphs, and more.
-- **Easy Configuration**: Simple steps to apply the theme and custom CSS.
-
----
-
-## Prerequisites
-
-- [Glances(https://github.com/glanceapp/glance)] installed and running.
-- [Homepage(https://gethomepage.dev/)] installed and running.
-- [Uptime-Kuma] installed and running.
-- [Material for Mkdocs](https://squidfunk.github.io/mkdocs-material/) installed and running.
-- Access to the configuration directories.
-
 
 ## Installation
 
