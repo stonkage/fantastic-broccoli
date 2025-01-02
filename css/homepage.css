@@ -1,6 +1,5 @@
 /* Rename to custom.css and add to homepage folder see https://gethomepage.dev/configs/custom-css-js/ */
 
-/* Root variables for custom colour palette */
 :root {
   /* Catppuccin Frappe colour palette */
   --background-color: hsl(229, 19%, 23%); /* Main background */
