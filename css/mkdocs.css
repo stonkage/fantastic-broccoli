@@ -1,3 +1,5 @@
+/* copy into your mkdocs styelsheets folder */
+
 [data-md-color-scheme=default] {
   --md-hue: 240 !important;
   --md-default-fg-color: hsl(222, 74%, 74%, 1.2) !important;
