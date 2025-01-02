@@ -1,0 +1,61 @@
+[data-md-color-scheme=default] {
+  --md-hue: 240 !important;
+  --md-default-fg-color: hsl(222, 74%, 74%, 1.2) !important;
+  --md-default-fg-color--light: hsl(222, 74%, 74%, 1.2) !important;
+  --md-default-fg-color--lighter: hsl(222, 74%, 74%, 2.4) !important;
+  --md-default-fg-color--lightest: hsl(222, 74%, 74%, 3.6) !important;
+  --md-default-bg-color: hsl(229, 19%, 23%) !important;
+  --md-default-bg-color--light:  hsl(229, 69%, 63%) !important;
+  --md-default-bg-color--lighter:  hsl(229, 19%, 23%) !important;
+  --md-default-bg-color--lightest:  hsl(229, 19%, 23%) !important;
+  --md-code-bg-color: hsl(229, 10%, 70%);
+  --md-typeset-a-color: #a3a8c0 !important;
+}
+
+.md-nav, .md-nav__link, .md-tabs__link, .md-tabs, .md-header, .md-typeset pre  {
+
+background-color: var(--md-default-bg-color);
+font-size: .8rem;
+}
+
+
+.md-header {
+
+color: var(--md-default-fg-color);
+font-size: .10rem;
+}
+
+
+.md-typeset h1, .md-typeset h2, .md-typeset h3 {
+  color: #a3a8c0 !important;
+}
+
+/* Apply custom font-family globally */
+html, body {
+  font-family: 'JetBrains Mono', monospace !important;  /* Force your preferred font */
+  text-rendering: optimizeLegibility !important;  /* Improve text rendering */
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+
+
+/* Set mobile drawer menu colors*/
+@media screen and (max-width: 76.2344em) {
+    .md-nav--primary .md-nav__title[for=__drawer] {
+        background-color: hsl(229, 19%, 23%);
+        color: hsl(222, 74%, 74%);
+        font-weight: 700;
+
+    }
+}
+
+.md-typeset h1 {
+font-size: 1.5em
+}
+
+.md-clipboard {
+	color: #3d4c53 !important;
+}
