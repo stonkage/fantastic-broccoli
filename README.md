@@ -6,7 +6,7 @@ This project integrates the Glance [Catppuccin Frappe colour palette](https://gi
 - [Uptime-Kuma](https://github.com/louislam/uptime-kuma)
 - [Material for Mkdocs](https://squidfunk.github.io/mkdocs-material/) 
 
-Homepage css has been documented so you can go with your own theme, mkdocs and kuma both work but there maybe some elements that look little off
+Homepage css has been documented so you can go with your own theme, mkdocs and kuma both work but there may be some elements that look little off
 
 ---
 
