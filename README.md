@@ -1,6 +1,6 @@
 # Glances Catppuccin Frappe Theme for Homepage
 
-This project integrates the [Catppuccin Frappe colour palette](https://github.com/glanceapp/glance/blob/v0.6.2/docs/themes.md) into [Homepage (https://gethomepage.dev/)] to give you the same look and feel.
+This project integrates the [Catppuccin Frappe colour palette](https://github.com/glanceapp/glance/blob/v0.6.2/docs/themes.md) into [Homepage(https://gethomepage.dev/)] to give you the same look and feel.
 
 ---
 
