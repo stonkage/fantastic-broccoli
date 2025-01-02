@@ -1,6 +1,6 @@
-# Glances Catppuccin Frappe Theme for Homepage
+# Glances Catppuccin Frappe Theme for Homepage, Material for Mkdcos and Uptime-Kuma
 
-This project integrates the [Catppuccin Frappe colour palette](https://github.com/glanceapp/glance/blob/v0.6.2/docs/themes.md) into [Homepage(https://gethomepage.dev/)] to give you the same look and feel.
+This project integrates the [Catppuccin Frappe colour palette](https://github.com/glanceapp/glance/blob/v0.6.2/docs/themes.md) into [Homepage](https://gethomepage.dev/) to give you the same look and feel.
 
 ---
 
@@ -16,7 +16,9 @@ This project integrates the [Catppuccin Frappe colour palette](https://github.co
 
 - [Glances(https://github.com/glanceapp/glance)] installed and running.
 - [Homepage(https://gethomepage.dev/)] installed and running.
-- Access to the homepage configuration directory.
+- [Uptime-Kuma] installed and running.
+- [Material for Mkdocs](https://squidfunk.github.io/mkdocs-material/) installed and running.
+- Access to the configuration directories.
 
 
 ## Installation
@@ -28,12 +30,35 @@ This project integrates the [Catppuccin Frappe colour palette](https://github.co
 - Ensure you choose slate as the your homepage theme
 
 ### Material for MKdocs
+- Copy mkdocs.css to [stylesheets](https://squidfunk.github.io/mkdocs-material/customization/?h=css#additional-css} folder
+- Rename to extra.css
+- update mkdocs yaml folder to include [extra.css](https://squidfunk.github.io/mkdocs-material/customization/?h=css#additional-css} file
+- Restart your mkdocs instance
+
+### Uptime-Kuma Status Page
+- Copy the contents of kuma.css
+- Create and edit a status page
+- Paste into custom.css section 
+
+You can further integrate your apps by using the [iframe widget](https://github.com/glanceapp/glance/blob/v0.6.2/docs/configuration.md#iframe) in glance (see screenshots)
 
 ---
 
 ## Screenshots
 
+Glance Start Page
 ![Screenshot from 2025-01-02 10-42-25](https://github.com/user-attachments/assets/bae770ce-7dba-4ed6-894b-d818b688a36e)
+
+Homepage
 ![Screenshot from 2025-01-02 10-45-01](https://github.com/user-attachments/assets/2bda7047-9310-465d-b22f-8f4a502ce039)
+
+Material for MKdcos
+![Screenshot from 2025-01-02 11-04-40](https://github.com/user-attachments/assets/83ca6418-0248-4b4d-a0d2-99b36f98fc1d)
+
+Uptime Kuma
+![Screenshot from 2025-01-02 11-05-18](https://github.com/user-attachments/assets/1e3e31ec-ade9-452b-bfaf-195eedb1a5ba)
+
+
+
 
 
