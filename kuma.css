@@ -1,0 +1,48 @@
+h2, .h2 {
+	font-size: 23px;
+}
+
+.dark {
+  background-color: hsl(229, 19%, 23%);
+}
+
+#app {
+  font-family: JetBrains Mono, mono;
+}
+
+.dark .shadow-box:not(.alert) {
+  background-color: hsl(229, 19%, 23%);
+}
+
+.dark .shadow-box[data-v-84507135] {
+  background-color: hsl(229, 19%, 23%);
+}
+
+.btn-info {
+  color: #000;
+  background-color: hsl(222, 74%, 74%);
+  border-color: hsl(222, 74%, 74%);
+}
+.h2{
+.dark {
+  background-color: hsl(229, 19%, 23%);
+  font-size: 2px!important;
+}
+
+#app {
+  font-family: JetBrains Mono, mono;
+}
+
+.dark .shadow-box:not(.alert) {
+  background-color: hsl(229, 19%, 23%);
+}
+
+.dark .shadow-box[data-v-84507135] {
+  background-color: hsl(229, 19%, 23%);
+}
+
+.btn-info {
+  color: #000;
+  background-color: hsl(222, 74%, 74%);
+  border-color: hsl(222, 74%, 74%);
+}
