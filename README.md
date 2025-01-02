@@ -34,7 +34,7 @@ You can further integrate your apps by using the [iframe widget](https://github.
 ## Screenshots
 
 Glance Start Page
-![Screenshot from 2025-01-02 10-42-25](https://github.com/user-attachments/assets/bae770ce-7dba-4ed6-894b-d818b688a36e)
+![Thumbnail](https://github.com/stonkage/fantastic-broccoli/blob/main/screenshots/glance.png)
 
 Homepage
 ![Screenshot from 2025-01-02 10-45-01](https://github.com/user-attachments/assets/2bda7047-9310-465d-b22f-8f4a502ce039)
