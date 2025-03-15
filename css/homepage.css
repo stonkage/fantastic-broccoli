@@ -1,5 +1,6 @@
 /* Rename to custom.css and add to homepage folder see https://gethomepage.dev/configs/custom-css-js/ */
 
+/* Root variables for custom colour palette */
 :root {
   /* Catppuccin Frappe colour palette */
   --background-color: hsl(229, 19%, 23%); /* Main background */
@@ -7,17 +8,16 @@
   --primary-color: hsl(222, 74%, 74%); /* Primary colour */
   --positive-color: hsl(96, 44%, 68%); /* Success/Positive */
   --negative-color: hsl(359, 68%, 71%); /* Error/Negative */
-
 }
 
 /* Override Slate theme with custom colours */
 .theme-slate {
-  --color-50: 248, 250, 252 !important;  /* Lightest */
+  --color-50: 248, 250, 252 !important;
   --color-100: 241, 245, 249 !important;
   --color-200: 226, 232, 240 !important;
   --color-300: 203, 213, 225 !important;
   --color-400: 148, 163, 184 !important;
-  --color-500: 100, 116, 139 !important; /* Base colour */
+  --color-500: 100, 116, 139 !important;
   --color-600: 71, 85, 105 !important;
   --color-700: 51, 65, 85 !important;
   --color-800: 30, 41, 59 !important;
@@ -28,7 +28,7 @@
   --color-logo-stop: 51, 65, 85 !important;
 }
 
-/* Apply the font used by glance globally */
+/* Apply the font globally */
 html, body {
   font-family: 'JetBrains Mono', monospace !important;
   text-rendering: optimizeLegibility !important;
@@ -39,7 +39,6 @@ html, body {
   font-size: 16px;
   line-height: 1.6;
 }
-
 
 /* Links */
 a {
@@ -54,18 +53,17 @@ a:hover {
 
 /* Buttons */
 button {
-  background-color: var(--primary-color);
-  color: white;
+  background-color: var(--color-200);
+  color: var(--primary-color);
   border: none;
-  padding: 10px 20px;
   cursor: pointer;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
 }
 
-button:hover {
-  background-color: hsl(222, 74%, 60%); /* Darken the primary colour for hover effect */
+/* Disable hover effect ONLY for this specific button */
+.service-tag.service-container-stats:hover {
+    background-color: transparent !important;
 }
+
 
 /* Success message */
 .success {
@@ -73,10 +71,6 @@ button:hover {
   color: white;
   padding: 10px;
   border-radius: 5px;
-}
-
-.success:hover {
-  background-color: hsl(96, 44%, 58%); /* Darken the positive colour for hover effect */
 }
 
 /* Error message */
@@ -88,7 +82,7 @@ button:hover {
 }
 
 .error:hover {
-  background-color: hsl(359, 68%, 60%); /* Darken the negative colour for hover effect */
+  background-color: hsl(359, 68%, 60%);
 }
 
 /* Form elements */
@@ -107,13 +101,13 @@ input:focus, select:focus, textarea:focus {
   border-color: var(--primary-color);
 }
 
-
 /* Sections */
 section {
   background-color: var(--color-200);
   padding: 20px;
   border-radius: 10px;
 }
+
 section:hover {
   background-color: var(--color-300);
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
@@ -131,40 +125,38 @@ footer {
   text-align: center;
 }
 
-/* Media Queries for responsiveness */
-/* Font Size on Desktop */
-
+/* Responsive Font Sizes */
 @media (max-width: 768px) {
   body {
     font-size: 14px;
   }
-
   button {
     width: 100%;
   }
-
   input, select, textarea {
     width: 100%;
   }
 }
 
-/* Font Size on Mobiles */
 @media (max-width: 480px) {
   body {
     font-size: 13px;
   }
 }
 
-/* Changes description text colour */
+/* Adjust text color for dark mode */
 .dark\:text-theme-300:is(.dark *) {
   color: #a3a8c0 !important;
 }
 
-
-/* Turn off high light for section titles */
+/* Prevent unwanted highlight effect for section titles */
 button.flex.w-full.select-none.items-center.group:hover,
 button.flex.w-full.select-none.items-center.group:focus {
   background-color: transparent !important;
 }
 
+/* Adjust background color for dark mode */
+.dark\:bg-theme-900\/20:is(.dark *) {
+	background-color: var(--color-200) !important;
+}
 
