@@ -8,6 +8,8 @@ This project integrates the Glance [Catppuccin Frappe theme](https://github.com/
 
 Homepage elements have been documented so you can go with your own theme if you choose, mkdocs and kuma both work but there may be some elements that look little off.
 
+Happily will accept pull requests for more glance themes and other selfhosted apps that support custom css
+
 ---
 
 ## Installation
