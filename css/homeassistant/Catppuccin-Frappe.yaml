@@ -1,0 +1,51 @@
+#Copy to /themes/Catppuccin-Frappe/Catppuccin-Frappe.yaml
+
+CatppuccinFrappe:
+  # Background & General Colors
+  primary-background-color: "hsl(229, 19%, 23%)"  # Main background
+  secondary-background-color: "hsl(229, 19%, 27%)"  # Slightly darker secondary background
+  card-background-color: "hsl(229, 19%, 29%)"  # Background for Lovelace cards
+  ha-card-border-radius: "10px"  # Card border radius
+  app-header-background-color: "hsl(229, 19%, 23%)"  # Top bar color
+  sidebar-background-color: "hsl(229, 19%, 23%)"
+  sidebar-selected-background-color: "hsl(222, 74%, 74%)"
+  
+  # Text Colors
+  primary-text-color: "hsl(222, 74%, 74%)"
+  text-primary-color: "hsl(222, 74%, 74%)"
+  secondary-text-color: "hsl(203, 21%, 50%)"
+  sidebar-text-color: "hsl(222, 74%, 74%)"
+  
+  # Custom Colors (Positive/Negative/Accent)
+  accent-color: "hsl(222, 74%, 74%)"  # Primary accent
+  success-color: "hsl(96, 44%, 68%)"  # Positive (Green)
+  error-color: "hsl(359, 68%, 71%)"  # Negative (Red)
+  
+  # Buttons & Links
+  paper-item-icon-color: "hsl(222, 74%, 74%)"  # Default icon color
+  paper-item-icon-active-color: "hsl(222, 74%, 90%)"  # Active icon
+  primary-color: "hsl(222, 74%, 74%)"  # Used for buttons and links
+  link-text-color: "hsl(222, 74%, 74%)"
+  paper-button-ink-color: "hsl(222, 74%, 74%)"
+  
+  # Cards
+  ha-card-box-shadow: "0px 4px 6px rgba(0, 0, 0, 0.1)"  # Card shadow
+  
+  # Fonts
+  font-family: "'JetBrains Mono', monospace"  # Custom font
+  
+  # Input Fields
+  input-fill-color: "hsl(229, 19%, 27%)"
+  input-ink-color: "hsl(222, 74%, 74%)"
+  input-label-ink-color: "hsl(222, 74%, 74%)"
+  input-dropdown-icon-color: "hsl(222, 74%, 74%)"
+  input-idle-line-color: "hsl(203, 21%, 50%)"
+  
+  # Tables
+  table-row-background-color: "hsl(229, 19%, 27%)"
+  table-row-alternative-background-color: "hsl(229, 19%, 29%)"
+  
+  # Dark Mode Overrides
+  dark-primary-color: "hsl(222, 74%, 74%)"
+  dark-secondary-color: "hsl(203, 21%, 50%)"
+  dark-background-color: "hsl(229, 19%, 23%)"
