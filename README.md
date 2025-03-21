@@ -31,9 +31,35 @@ Happily will accept pull requests for more glance themes and other selfhosted ap
 - Create and edit a status page
 - Paste into custom.css section 
 
+### Home Assistant
+#### Prerequisites
+
+- CardMod installed: https://github.com/thomasloven/lovelace-card-mod  
+- Kiosk Mode installed: https://github.com/NemesisRE/kiosk-mode  
+
+#### Process
+
+- Allow Home Assistant to be iframed by adding the following to `configuration.yaml`:
+
+  ```yaml
+  http:
+    use_x_frame_options: false
+  ```
+- Install the CatppuccinFrappe theme and apply it under your user profile.
+- Create a new dashboard for glance-style display.
+- Add entities to the dashboard using example YAML as needed.
+- Add an iframe widget to your glance page.
+- Set the source URL to: http://yourha/yourdashboard/0?kiosk 
+
+
+
+
 You can further integrate your apps by using the [iframe widget](https://github.com/glanceapp/glance/blob/v0.6.2/docs/configuration.md#iframe) in glance (see screenshots)
 
 For those with larger monitors have look at glances [page width options](https://github.com/glanceapp/glance/blob/v0.6.2/docs/configuration.md#pages--columns) 
+
+
+
 
 ---
 
