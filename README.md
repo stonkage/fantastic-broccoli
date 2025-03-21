@@ -70,6 +70,9 @@ For those with larger monitors have look at glances [page width options](https:/
 Glance Start Page
 ![Screenshot](https://github.com/stonkage/fantastic-broccoli/blob/main/screenshots/glance.png)
 
+Home Assistant
+![homeassistant](https://github.com/stonkage/fantastic-broccoli/blob/main/screenshots/homeassistant.png)
+
 Homepage
 ![Screenshot from 2025-01-02 10-45-01](https://github.com/user-attachments/assets/2bda7047-9310-465d-b22f-8f4a502ce039)
 
