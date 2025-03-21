@@ -10,6 +10,10 @@ Homepage elements have been documented so you can go with your own theme if you 
 
 Happily will accept pull requests for more glance themes and other selfhosted apps that support custom css
 
+You can further integrate your apps by using the [iframe widget](https://github.com/glanceapp/glance/blob/v0.6.2/docs/configuration.md#iframe) in glance (see screenshots)
+
+For those with larger monitors have look at glances [page width options](https://github.com/glanceapp/glance/blob/v0.6.2/docs/configuration.md#pages--columns) 
+
 ---
 
 ## Installation
@@ -54,9 +58,7 @@ Happily will accept pull requests for more glance themes and other selfhosted ap
 
 
 
-You can further integrate your apps by using the [iframe widget](https://github.com/glanceapp/glance/blob/v0.6.2/docs/configuration.md#iframe) in glance (see screenshots)
 
-For those with larger monitors have look at glances [page width options](https://github.com/glanceapp/glance/blob/v0.6.2/docs/configuration.md#pages--columns) 
 
 
 
