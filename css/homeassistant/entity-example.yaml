@@ -1,0 +1,33 @@
+type: entity
+entity: sensor.internet_download_speed
+name: Down
+icon: mdi:download
+card_mod:
+  style: |
+    ha-card {
+      font-family: "JetBrains Mono", monospace !important;
+      width: 150px !important;
+      max-width: 100%;
+      background: #323649;
+      border: 1px solid rgba(255, 255, 255, 0.05) !important;
+      box-shadow: none !important;  
+    }
+
+    ha-card .info .value {
+      max-width: 100%;
+      font-size: 15px !important;
+      color:
+        {% set speed = states('sensor.internet_download_speed') | float %}
+        {% if speed < 40 %}
+          #e78284;
+        {% elif speed < 80 %}
+          #ef9f76;
+        {% else %}
+          #a6d189;
+        {% endif %};
+    }
+
+    ha-card .measurement {
+      max-width: 100%;
+      font-size: 15px !important;
+    }
