@@ -52,9 +52,9 @@ For those with larger monitors have look at glances [page width options](https:/
   http:
     use_x_frame_options: false
   ```
-- Install the CatppuccinFrappe(https://github.com/stonkage/fantastic-broccoli/blob/main/css/homeassistant/Catppuccin-Frappe.yaml) theme and apply it under your user profile.
+- Create the [CatppuccinFrappe](https://github.com/stonkage/fantastic-broccoli/blob/main/css/homeassistant/Catppuccin-Frappe.yaml) theme and apply it under your user profile.
 - Create a new dashboard for glance-style display.
-- Add entities to the dashboard using example YAML as needed.
+- Add [entities](https://github.com/stonkage/fantastic-broccoli/blob/main/css/homeassistant/entity-example.yaml) to the dashboard using example YAML as needed.
 - Add an iframe widget to your glance page.
 - Set the source URL to: http://yourha/yourdashboard/0?kiosk 
 
