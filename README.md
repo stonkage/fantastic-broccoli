@@ -4,9 +4,12 @@ This project integrates the Glance [Catppuccin Frappe theme](https://github.com/
 
 - [Homepage](https://gethomepage.dev/)
 - [Uptime-Kuma](https://github.com/louislam/uptime-kuma)
-- [Material for Mkdocs](https://squidfunk.github.io/mkdocs-material/) 
+- [Material for Mkdocs](https://squidfunk.github.io/mkdocs-material/)
+- [Home Assistant](https://github.com/home-assistant/home-assistant.io)
 
 Homepage elements have been documented so you can go with your own theme if you choose, mkdocs and kuma both work but there may be some elements that look little off.
+
+Home assistant example is for basic entity but you can iframe in your whole dashboard if you wanted.
 
 Happily will accept pull requests for more glance themes and other selfhosted apps that support custom css
 
