@@ -1,6 +1,6 @@
 ## Glance Catppuccin Frappe CSS
 
-This project integrates the Glance [Catppuccin Frappe theme](https://github.com/glanceapp/glance/blob/v0.6.2/docs/themes.md) into:
+Integrate the Glance [Catppuccin Frappe theme](https://github.com/glanceapp/glance/blob/v0.6.2/docs/themes.md) into:
 
 - [Homepage](https://gethomepage.dev/)
 - [Uptime-Kuma](https://github.com/louislam/uptime-kuma)
