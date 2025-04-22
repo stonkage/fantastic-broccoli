@@ -1,3 +1,5 @@
+#Add this to your homepage stack or run as seperate container
+  
   container-updates-summary:
     image: python:3.12-slim
     container_name: container-updates-summary
@@ -8,7 +10,6 @@
     volumes:
       - /config/homepage:/app:ro
     networks:
-      - nginx
       - internal
     ports:
       - "5070:5070"
