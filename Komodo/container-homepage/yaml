@@ -1,0 +1,14 @@
+- Container Updates:
+    icon: sh-docker.png
+    widget:
+      type: customapi
+      url: http://container-updates-summary:5070/
+      refreshInterval: 30000
+      display: block
+      mappings:
+        - field: total
+          label: Containers
+          format: number
+        - field: updates
+          label: With Updates
+          format: number
