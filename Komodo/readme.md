@@ -8,4 +8,4 @@ I have created a couple of custom api widgets for home page.
 - Stacks Oveview
 - Containers and Updates
 
-![Screenshot](https://github.com/stonkage/fantastic-broccoli/blob/main/screenshots/komodo stacks.png)
+![Screenshot](https://github.com/stonkage/fantastic-broccoli/blob/main/screenshots/komodo.png)
