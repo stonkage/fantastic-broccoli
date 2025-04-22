@@ -1,0 +1,14 @@
+  container-updates-summary:
+    image: python:3.12-slim
+    container_name: container-updates-summary
+    restart: unless-stopped
+    command: >
+      sh -c "pip install flask requests &&
+             python /app/container_updates_summary.py"
+    volumes:
+      - /config/homepage:/app:ro
+    networks:
+      - nginx
+      - internal
+    ports:
+      - "5070:5070"
