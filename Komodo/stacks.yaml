@@ -1,0 +1,29 @@
+ - Komodo:
+      icon: sh-docker.png
+      widget:
+        type: customapi
+        url:  <YOUR KOMODO URL>/read/
+        refreshInterval: 15000
+        method: POST
+        headers:
+          content-type: application/json
+          x-api-key: <YOUR KOMODO KEY>
+          x-api-secret: <YOUR KOMODO SECRET>
+        requestBody:
+          type: GetStacksSummary
+          params: {}
+
+        display: block
+        mappings:
+          - field: total
+            label: Total Stacks
+            format: number
+          - field: running
+            label: Running
+            format: number
+          - field: unhealthy
+            label: Unhealthy
+            format: number
+          - field: down
+            label: Stopped
+            format: number
