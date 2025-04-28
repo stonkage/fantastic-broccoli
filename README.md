@@ -2,7 +2,7 @@
 
 A personal collection of tools to enhance home dashboarding projects.
 
-- 🎨 [**Custom Glance CSS**](https://github.com/stonkage/fantastic-broccoli/tree/main/Glance) for a cleaner, more modern dashboard look
+- 🎨 [**Custom Glance themes for other apps CSS**](https://github.com/stonkage/fantastic-broccoli/tree/main/Glance) for consistent look.
 - 🧩 [**Custom widgets**](https://github.com/stonkage/fantastic-broccoli/tree/main/Komodo) for Komodo and other dashboard tools
 - 🖼️ [**Custom icons**](https://github.com/stonkage/fantastic-broccoli/tree/main/icons) for better visual consistency
 
