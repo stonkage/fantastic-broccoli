@@ -6,7 +6,7 @@ If your interested in migrating your containers and stacks check out the excelle
 Custom api widgets:
 
 - Stacks Oveview
-- Containers and Updates
+- Containers and Updates (requires small python flask app)
 
 ![Screenshot](https://github.com/stonkage/fantastic-broccoli/blob/main/screenshots/komodo.png)
 
