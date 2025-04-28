@@ -1,4 +1,4 @@
-# Home Dashboard Customisation
+# Dashboard Customisations
 
 A personal collection of tools to enhance home dashboarding projects.
 
