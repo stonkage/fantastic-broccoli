@@ -1,0 +1,35 @@
+  - WireGuard Summary:
+      icon: sh-wgdashboard.png
+      href: [YOUR WGDASHBAORD INSTANCE]
+      widget:
+        type: customapi
+        url: http://[YOUR WGDASHBAORD INSTANCE]/api/getWireguardConfigurations
+        method: GET
+        headers:
+          content-type: application/json
+          wg-dashboard-apikey: [YOUR WGDASHBAORD KEY]
+        mappings:
+          - field: data.0.ConnectedPeers
+            label: Connected
+          - field: data.0.TotalPeers
+            label: Peers
+          - field: data.0.DataUsage.Total
+            label: Total Usage
+            format: float
+            suffix: " GB"
+
+  - Connections:
+      icon: sh-wgdashboard.png
+      href: [YOUR WGDASHBAORD INSTANCE]
+      widget:
+        type: customapi
+        display: dynamic-list
+        url: http://[YOUR WGDASHBAORD INSTANCE]api/getWireguardConfigurationInfo?configurationName=wg0
+        method: GET
+        headers:
+          content-type: application/json
+          wg-dashboard-apikey: [YOUR WGDASHBAORD KEY]
+        mappings:
+          items: data.configurationPeers
+          name: name
+          label: status
